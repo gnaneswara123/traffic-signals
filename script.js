@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
     document.getElementById('redButton').addEventListener('click', function() {
         showSection('redSection');
     });
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         document.getElementById(sectionId).style.display = 'block';
     }
-});
+
 function toggleLight(light) {
     
     document.querySelectorAll('.light').forEach(function(lightElement) {
