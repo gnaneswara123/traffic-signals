@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(233, 230, 230);
+}
+
 .traffic-light {
     display: inline-block;
     position: relative;
@@ -28,7 +32,7 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    height: 90vh;
+    height: 70vh;
 }
 .buttons-container {
     display: flex;
@@ -44,6 +48,7 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 50px;
 }
 /* .btn{
     margin:auto;
@@ -75,6 +80,11 @@ li{
 }
 body {
     font-family:  sans-serif;
+}
+
+.card {
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }
 
 @media ((max-width:1024px) and (min-width:768px)) {
