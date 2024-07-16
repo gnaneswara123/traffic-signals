@@ -28,5 +28,24 @@ function toggleLight(light) {
     
     var lightElement = document.getElementById(light + 'Light');
     lightElement.classList.add('active');
+    
+    if(light == 'red'){
+        document.getElementById('redButton').classList.add('active');
+        document.getElementById('yellowButton').classList.remove('active');
+        document.getElementById('greenButton').classList.remove('active');
+
+    }
+    if(light == 'yellow'){
+        document.getElementById('yellowButton').classList.add('active');
+        document.getElementById('redButton').classList.remove('active');
+        document.getElementById('greenButton').classList.remove('active');
+
+    }
+    if(light == 'green'){
+        document.getElementById('greenButton').classList.add('active');
+        document.getElementById('redButton').classList.remove('active');
+        document.getElementById('yellowButton').classList.remove('active');
+
+    }
 }
 

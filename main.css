@@ -19,7 +19,6 @@ body{
     border-radius: 50%;
     margin: 20px auto;
     opacity: 0.2; 
-    transition: opacity 0.3s ease;
 }
 .red { background-color: red; }
 .yellow { background-color: yellow; }
@@ -40,15 +39,28 @@ body{
     align-items: center;
 }
 .btn {
-    
     margin:auto;
-    width:200px;
+    width:300px;
     margin: 65px  0px;
     margin-bottom: 10px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1); 
+}
+
+#redButton.active{
+    box-shadow: 0 4px 32px rgba(255, 77, 0, 0.8); 
+
+}
+#yellowButton.active{
+    box-shadow: 0 4px 32px rgba(238, 246, 3, 0.8); 
+
+}
+#greenButton.active{
+    box-shadow: 0 4px 32px rgba(29, 222, 3, 0.8); 
+
 }
 /* .btn{
     margin:auto;
