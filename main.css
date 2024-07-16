@@ -77,3 +77,28 @@ body {
     font-family:  sans-serif;
 }
 
+@media ((max-width:1024px) and (min-width:768px)) {
+    .card-cs{
+        border:1px solid gray;
+    
+        margin: 0px 100px;
+    }
+    .card-cd{
+        border:2px solid gray;
+    
+        margin: 0px 100px;
+    }
+}
+
+@media ((max-width:768px)) {
+    .card-cs{
+        border:1px solid gray;
+    
+        margin: 0px;
+    }
+    .card-cd{
+        border:2px solid gray;
+    
+        margin: 0px ;
+    }
+}

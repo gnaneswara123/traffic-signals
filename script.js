@@ -16,8 +16,6 @@
         document.getElementById('redSection').style.display = 'none';
         document.getElementById('yellowSection').style.display = 'none';
         document.getElementById('greenSection').style.display = 'none';
-
-        
         document.getElementById(sectionId).style.display = 'block';
     }
 
